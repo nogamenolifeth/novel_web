@@ -1,0 +1,46 @@
+.text-point {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+body{
+    background-color: rgb(242, 242, 242);
+}
+.listtype1{
+    margin-bottom: 20px;
+}
+.listtype1 a{
+    display: block;
+    background-color: #ffffff;
+    color: #222;
+    padding: 5px;
+    margin: 5px;
+}
+.listtype1 a:hover{
+    text-decoration: none;
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+}
+.listtype1 h5{
+    font-size:14px;
+}
+.listtype2 img{
+    width: 50px;
+}
+.listtype2 tr td:first-child{
+    width:1%;
+}
+.inline-flex{
+    display: inline-flex;
+}
+.block{
+    display: block;
+}
+.search a{
+    color: #222;
+}
+.search a:hover{
+    text-decoration: none;
+}
+.search .shadow:hover{
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+}
