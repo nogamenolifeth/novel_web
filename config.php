@@ -1,4 +1,7 @@
 <?php
+//Disable debug mode by default
+define("debug_mode", true);
+
 
 //Db connect part
 $conn = new mysqli("localhost","root","","amnovel");
